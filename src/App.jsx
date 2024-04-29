@@ -5,6 +5,7 @@ import Login from './components/Login.jsx';
 import Register from './components/Register.jsx';
 import Student from './components/Student.jsx';
 import Subject from './components/Subject.jsx';
+import Profile from './components/Profile.jsx';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Route path="/login" element={<Login />}/>
         <Route path="/register" element={<Register />}/>
         <Route path="/student" element={<Student />}/>
-        <Route path="/subject" element={<Subject />}/>
+        <Route path="/profile" element={<Profile />}/>
       </Routes>
     </BrowserRouter>
     </>
